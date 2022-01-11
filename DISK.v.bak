@@ -1,0 +1,70 @@
+
+module DISK(en_w,en_r,address,DataIn,DataOut,Clock);
+input Clock;
+input en_w,en_r;
+input [64:0] address;
+input [31:0] DataIn;
+output reg [31:0] DataOut;
+reg [31:0]MEM[0:64];
+reg [64:0] adr;
+ClockGen C (CLK);
+assign Clock = CLK; 
+integer i=0;
+initial
+begin
+MEM[0]=32'b000000_10000_10001_10010_00000_100001;
+MEM[1]=32'b000000_10000_10001_10010_00000_100010;
+MEM[2]=32'b000000_10000_10001_10010_00000_100100;
+MEM[3]=32'b000000_10000_10001_10010_00000_110000;
+MEM[4]=32'b000000_10000_10001_10010_00001_100000;
+MEM[5]=32'b000000_10000_10001_10010_00100_100000;
+MEM[6]=32'b000000_10000_10001_10010_01000_100000;
+MEM[7]=32'b000010_10000_10001_10010_00000_100000;
+MEM[8]=32'b001000_10000_10001_10010_00000_100000;
+MEM[9]=32'b100000_10000_10001_10010_00000_100000;
+MEM[10]=11;
+MEM[11]=12;
+MEM[12]=13;
+MEM[13]=14;
+MEM[14]=15;
+MEM[15]=16;
+MEM[16]=17;
+MEM[17]=18;
+MEM[18]=19;
+MEM[19]=20;
+MEM[20]=21;
+$write("[DISK Init]    ");
+        for(i = 0; i < 20; i = i + 1)begin
+            $write("%d, ",MEM[i]);
+        end
+        $write("\n");
+end
+
+always@(negedge Clock )
+
+begin
+adr<=address;
+if(en_r==1)
+begin
+DataOut<=MEM[adr];
+end
+if(en_w==1)
+begin
+MEM[adr]<=DataIn;
+end
+end
+always@(posedge Clock)
+begin
+if(en_r==1)
+begin
+adr<=address;
+$monitor("location %d has data %d",adr,MEM[adr]);
+end
+if(en_w==1)
+begin
+adr<=address;
+$monitor("location %d has data %d",adr,MEM[adr]);
+end
+end
+endmodule
+

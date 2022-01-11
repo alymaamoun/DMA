@@ -1,0 +1,47 @@
+{D:/Senior 1/DMA trial/TB.v} {1 {vlog -work work -stats=none {D:\Senior 1\DMA trial\TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RAM
+-- Compiling module DISK
+-- Compiling module ClockGen
+-- Compiling module DMA_2
+-- Compiling module tb2
+
+Top level modules:
+	tb2
+
+} {} {}} {D:/Senior 1/DMA trial/ClockGen.v} {1 {vlog -work work -stats=none {D:/Senior 1/DMA trial/ClockGen.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ClockGen
+
+Top level modules:
+	ClockGen
+
+} {} {}} {D:/Senior 1/DMA trial/DMA.v} {1 {vlog -work work -stats=none {D:/Senior 1/DMA trial/DMA.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DMA
+
+Top level modules:
+	DMA
+
+} {} {}} {D:/Senior 1/DMA trial/DISK.v} {1 {vlog -work work -stats=none {D:/Senior 1/DMA trial/DISK.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DISK
+
+Top level modules:
+	DISK
+
+} {} {}} {D:/Senior 1/DMA trial/RAM.v} {1 {vlog -work work -stats=none {D:/Senior 1/DMA trial/RAM.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RAM
+
+Top level modules:
+	RAM
+
+} {} {}} {D:/Senior 1/DMA trial/MIPS.v} {1 {vlog -work work -stats=none {D:/Senior 1/DMA trial/MIPS.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}}

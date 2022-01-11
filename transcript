@@ -1,0 +1,3916 @@
+vsim -gui work.tb2
+# vsim -gui work.tb2 
+# Start time: 15:20:28 on Jan 11,2022
+# Loading work.tb2
+# Loading work.ClockGen
+# Loading work.DISK
+# Loading work.CPU
+# Loading work.RAM
+# Loading work.DMA_2
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cpu'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb2/cpu File: D:/Senior 1/DMA trial/TB.v Line: 37
+# ** Warning: (vsim-3722) D:/Senior 1/DMA trial/TB.v(37): [TFMPC] - Missing connection for port 'END'.
+# WARNING: No extended dataflow license exists
+# Compile of DMA.v was successful.
+# Compile of RAM.v was successful.
+# Compile of DISK.v was successful.
+# Compile of TB.v was successful.
+# Compile of ClockGen.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb2
+# Loading work.ClockGen
+# Loading work.DISK
+# Loading work.RAM
+# Loading work.DMA_2
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'cpu'.  Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb2/cpu File: D:/Senior 1/DMA trial/TB.v Line: 37
+# ** Warning: (vsim-3722) D:/Senior 1/DMA trial/TB.v(37): [TFMPC] - Missing connection for port 'END'.
+# Compile of DMA_2.v was successful.
+# Compile of MIPS.v was successful.
+# 7 compiles, 0 failed with no errors.
+run
+# [DISK Init]             1,          2,          3,          4,          5,          6,          7,          8,          9,         10,         11,         12,         13,         14,         15,         16,         17,         18,         19,         20, 
+# [Ram Init]             0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0, 
+# 
+# 
+# 
+# 
+# LOADED remaining size is                    x
+# r  is x
+# w is x
+# ram is                    x
+# disk  is                    x
+# 
+# 
+# LOADING FINISHED
+# 
+# 
+# 
+# LOADED remaining size is                   20
+# r  is 0
+# w is 1
+# ram is                    0
+# disk  is                    0
+# 
+# 
+# LOADING FINISHEDlocation                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+run
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.CPU
+# Loading work.DMA_2
+add wave -position insertpoint sim:/tb2/*
+run
+# [DISK Init]             1,          2,          3,          4,          5,          6,          7,          8,          9,         10,         11,         12,         13,         14,         15,         16,         17,         18,         19,         20, 
+# [Ram Init]             0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0, 
+# 
+# 
+# 
+# 
+# LOADED remaining size is                    x
+# r  is x
+# w is x
+# ram is                    x
+# disk  is                    x
+# 
+# 
+# LOADING FINISHED
+# 
+# 
+# 
+# LOADED remaining size is                   20
+# r  is 0
+# w is 1
+# ram is                    0
+# disk  is                    0
+# 
+# 
+# LOADING FINISHEDlocation                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data          0
+run
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data          0
+run
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data          0
+run
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          0
+run
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          0
+run
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          0
+# Compile of DMA.v was successful.
+# Compile of RAM.v was successful.
+# Compile of DISK.v was successful.
+# Compile of TB.v was successful.
+# Compile of ClockGen.v was successful.
+# Compile of DMA_2.v was successful.
+restart -f
+# Loading work.tb2
+# Loading work.ClockGen
+# Loading work.DISK
+# Loading work.RAM
+# Loading work.DMA_2
+# Compile of MIPS.v was successful.
+# 7 compiles, 0 failed with no errors.
+run
+# [DISK Init]             1,          2,          3,          4,          5,          6,          7,          8,          9,         10,         11,         12,         13,         14,         15,         16,         17,         18,         19,         20, 
+# [Ram Init]             0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0, 
+# 
+# 
+# 
+# 
+# LOADED remaining size is                    x
+# r  is x
+# w is x
+# ram is                    x
+# disk  is                    x
+# 
+# 
+# LOADING FINISHED
+# 
+# 
+# 
+# LOADED remaining size is                   20
+# r  is 1
+# w is 0
+# ram is                    0
+# disk  is                    0
+# 
+# 
+# LOADING FINISHEDlocation                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# remaining size is                   20
+# RAM ADDRESS is                    x
+# DISK ADDRESS is                    x
+# DATA in is          x
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# remaining size is                   19
+# RAM ADDRESS is                   20
+# DISK ADDRESS is                   20
+# DATA in is          x
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# remaining size is                   18
+# RAM ADDRESS is                   19
+# DISK ADDRESS is                   19
+# DATA in is         21
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# remaining size is                   17
+# RAM ADDRESS is                   18
+# DISK ADDRESS is                   18
+# DATA in is         20
+run
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# remaining size is                   16
+# RAM ADDRESS is                   17
+# DISK ADDRESS is                   17
+# DATA in is         19
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# remaining size is                   15
+# RAM ADDRESS is                   16
+# DISK ADDRESS is                   16
+# DATA in is         18
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# remaining size is                   14
+# RAM ADDRESS is                   15
+# DISK ADDRESS is                   15
+# DATA in is         17
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# remaining size is                   13
+# RAM ADDRESS is                   14
+# DISK ADDRESS is                   14
+# DATA in is         16
+run
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# remaining size is                   12
+# RAM ADDRESS is                   13
+# DISK ADDRESS is                   13
+# DATA in is         15
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# remaining size is                   11
+# RAM ADDRESS is                   12
+# DISK ADDRESS is                   12
+# DATA in is         14
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# remaining size is                   10
+# RAM ADDRESS is                   11
+# DISK ADDRESS is                   11
+# DATA in is         13
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# remaining size is                    9
+# RAM ADDRESS is                   10
+# DISK ADDRESS is                   10
+# DATA in is         12
+run
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# remaining size is                    8
+# RAM ADDRESS is                    9
+# DISK ADDRESS is                    9
+# DATA in is         11
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# remaining size is                    7
+# RAM ADDRESS is                    8
+# DISK ADDRESS is                    8
+# DATA in is         10
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# remaining size is                    6
+# RAM ADDRESS is                    7
+# DISK ADDRESS is                    7
+# DATA in is          9
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# remaining size is                    5
+# RAM ADDRESS is                    6
+# DISK ADDRESS is                    6
+# DATA in is          8
+run
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# remaining size is                    4
+# RAM ADDRESS is                    5
+# DISK ADDRESS is                    5
+# DATA in is          7
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# remaining size is                    3
+# RAM ADDRESS is                    4
+# DISK ADDRESS is                    4
+# DATA in is          6
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# remaining size is                    2
+# RAM ADDRESS is                    3
+# DISK ADDRESS is                    3
+# DATA in is          5
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# remaining size is                    1
+# RAM ADDRESS is                    2
+# DISK ADDRESS is                    2
+# DATA in is          4
+run
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# remaining size is                    0
+# RAM ADDRESS is                    1
+# DISK ADDRESS is                    1
+# DATA in is          3
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# Compile of DMA.v was successful.
+# Compile of RAM.v was successful.
+# Compile of DISK.v was successful.
+# Compile of TB.v was successful.
+# Compile of ClockGen.v was successful.
+# Compile of DMA_2.v was successful.
+# Compile of MIPS.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb2
+# Loading work.ClockGen
+# Loading work.DISK
+# Loading work.CPU
+# Loading work.RAM
+# Loading work.DMA_2
+run
+# [DISK Init]             1,          2,          3,          4,          5,          6,          7,          8,          9,         10,         11,         12,         13,         14,         15,         16,         17,         18,         19,         20, 
+# [Ram Init]             0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0, 
+# 
+# 
+# 
+# 
+# LOADED remaining size is                    x
+# r  is x
+# w is x
+# ram is                    x
+# disk  is                    x
+# 
+# 
+# LOADING FINISHED
+# 
+# 
+# 
+# LOADED remaining size is                   20
+# r  is 1
+# w is 0
+# ram is                    0
+# disk  is                    0
+# 
+# 
+# LOADING FINISHEDlocation                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# remaining size is                   20
+# RAM ADDRESS is                    x
+# DISK ADDRESS is                    x
+# DATA in is          x
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# remaining size is                   19
+# RAM ADDRESS is                   20
+# DISK ADDRESS is                   20
+# DATA in is          x
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# remaining size is                   18
+# RAM ADDRESS is                   19
+# DISK ADDRESS is                   19
+# DATA in is         21
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# remaining size is                   17
+# RAM ADDRESS is                   18
+# DISK ADDRESS is                   18
+# DATA in is         20
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# remaining size is                   16
+# RAM ADDRESS is                   17
+# DISK ADDRESS is                   17
+# DATA in is         19
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# remaining size is                   15
+# RAM ADDRESS is                   16
+# DISK ADDRESS is                   16
+# DATA in is         18
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# remaining size is                   14
+# RAM ADDRESS is                   15
+# DISK ADDRESS is                   15
+# DATA in is         17
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# remaining size is                   13
+# RAM ADDRESS is                   14
+# DISK ADDRESS is                   14
+# DATA in is         16
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# remaining size is                   12
+# RAM ADDRESS is                   13
+# DISK ADDRESS is                   13
+# DATA in is         15
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# remaining size is                   11
+# RAM ADDRESS is                   12
+# DISK ADDRESS is                   12
+# DATA in is         14
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# remaining size is                   10
+# RAM ADDRESS is                   11
+# DISK ADDRESS is                   11
+# DATA in is         13
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# remaining size is                    9
+# RAM ADDRESS is                   10
+# DISK ADDRESS is                   10
+# DATA in is         12
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# remaining size is                    8
+# RAM ADDRESS is                    9
+# DISK ADDRESS is                    9
+# DATA in is         11
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# remaining size is                    7
+# RAM ADDRESS is                    8
+# DISK ADDRESS is                    8
+# DATA in is         10
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# remaining size is                    6
+# RAM ADDRESS is                    7
+# DISK ADDRESS is                    7
+# DATA in is          9
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# remaining size is                    5
+# RAM ADDRESS is                    6
+# DISK ADDRESS is                    6
+# DATA in is          8
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# remaining size is                    4
+# RAM ADDRESS is                    5
+# DISK ADDRESS is                    5
+# DATA in is          7
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# remaining size is                    3
+# RAM ADDRESS is                    4
+# DISK ADDRESS is                    4
+# DATA in is          6
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# remaining size is                    2
+# RAM ADDRESS is                    3
+# DISK ADDRESS is                    3
+# DATA in is          5
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# remaining size is                    1
+# RAM ADDRESS is                    2
+# DISK ADDRESS is                    2
+# DATA in is          4
+run
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# remaining size is                    0
+# RAM ADDRESS is                    1
+# DISK ADDRESS is                    1
+# DATA in is          3
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# Compile of DMA.v was successful.
+# Compile of RAM.v was successful.
+# Compile of DISK.v was successful.
+# Compile of TB.v was successful.
+# Compile of ClockGen.v was successful.
+# Compile of DMA_2.v was successful.
+# Compile of MIPS.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb2
+# Loading work.ClockGen
+# Loading work.DISK
+# Loading work.CPU
+# Loading work.RAM
+# Loading work.DMA_2
+run
+# [DISK Init]             1,          2,          3,          4,          5,          6,          7,          8,          9,         10,         11,         12,         13,         14,         15,         16,         17,         18,         19,         20, 
+# [Ram Init]             0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0, 
+# 
+# 
+# 
+# 
+# LOADED remaining size is                    x
+# r  is x
+# w is x
+# ram is                    x
+# disk  is                    x
+# 
+# 
+# LOADING FINISHED
+# 
+# 
+# 
+# LOADED remaining size is                   20
+# r  is 1
+# w is 0
+# ram is                    0
+# disk  is                    0
+# 
+# 
+# LOADING FINISHEDlocation                    x in RAM has data          x
+# location                    x in RAM has data          x
+# remaining size is                   20
+# RAM ADDRESS is                    x
+# DISK ADDRESS is                    x
+# DATA in is          x
+# location                    x in RAM has data          x
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# remaining size is                   19
+# RAM ADDRESS is                   20
+# DISK ADDRESS is                   20
+# DATA in is          x
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# remaining size is                   18
+# RAM ADDRESS is                   19
+# DISK ADDRESS is                   19
+# DATA in is         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         20
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# remaining size is                   17
+# RAM ADDRESS is                   18
+# DISK ADDRESS is                   18
+# DATA in is         20
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# remaining size is                   16
+# RAM ADDRESS is                   17
+# DISK ADDRESS is                   17
+# DATA in is         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         18
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# remaining size is                   15
+# RAM ADDRESS is                   16
+# DISK ADDRESS is                   16
+# DATA in is         18
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# remaining size is                   14
+# RAM ADDRESS is                   15
+# DISK ADDRESS is                   15
+# DATA in is         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         16
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# remaining size is                   13
+# RAM ADDRESS is                   14
+# DISK ADDRESS is                   14
+# DATA in is         16
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# remaining size is                   12
+# RAM ADDRESS is                   13
+# DISK ADDRESS is                   13
+# DATA in is         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         14
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# remaining size is                   11
+# RAM ADDRESS is                   12
+# DISK ADDRESS is                   12
+# DATA in is         14
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# remaining size is                   10
+# RAM ADDRESS is                   11
+# DISK ADDRESS is                   11
+# DATA in is         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         12
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# remaining size is                    9
+# RAM ADDRESS is                   10
+# DISK ADDRESS is                   10
+# DATA in is         12
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# remaining size is                    8
+# RAM ADDRESS is                    9
+# DISK ADDRESS is                    9
+# DATA in is         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         10
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# remaining size is                    7
+# RAM ADDRESS is                    8
+# DISK ADDRESS is                    8
+# DATA in is         10
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# remaining size is                    6
+# RAM ADDRESS is                    7
+# DISK ADDRESS is                    7
+# DATA in is          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          8
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# remaining size is                    5
+# RAM ADDRESS is                    6
+# DISK ADDRESS is                    6
+# DATA in is          8
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# remaining size is                    4
+# RAM ADDRESS is                    5
+# DISK ADDRESS is                    5
+# DATA in is          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          6
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# remaining size is                    3
+# RAM ADDRESS is                    4
+# DISK ADDRESS is                    4
+# DATA in is          6
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# remaining size is                    2
+# RAM ADDRESS is                    3
+# DISK ADDRESS is                    3
+# DATA in is          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          4
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# remaining size is                    1
+# RAM ADDRESS is                    2
+# DISK ADDRESS is                    2
+# DATA in is          4
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# remaining size is                    0
+# RAM ADDRESS is                    1
+# DISK ADDRESS is                    1
+# DATA in is          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          2
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# Compile of DMA.v was successful.
+# Compile of RAM.v was successful.
+# Compile of DISK.v was successful.
+# Compile of TB.v was successful.
+# Compile of ClockGen.v was successful.
+# Compile of DMA_2.v was successful.
+# Compile of MIPS.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# Loading work.tb2
+# Loading work.ClockGen
+# Loading work.DISK
+# Loading work.CPU
+# Loading work.RAM
+# Loading work.DMA_2
+run
+# [DISK Init]             1,          2,          3,          4,          5,          6,          7,          8,          9,         10,         11,         12,         13,         14,         15,         16,         17,         18,         19,         20, 
+# [Ram Init]             0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0, 
+# 
+# 
+# 
+# 
+# LOADED remaining size is                    x
+# r  is x
+# w is x
+# ram is                    x
+# disk  is                    x
+# 
+# 
+# LOADING FINISHED
+# 
+# 
+# 
+# LOADED remaining size is                   20
+# r  is 1
+# w is 0
+# ram is                    0
+# disk  is                    0
+# 
+# 
+# LOADING FINISHEDremaining size is                   20
+# RAM ADDRESS is                    x
+# DISK ADDRESS is                    x
+# DATA in is          x
+# location                    x in RAM has data          x
+# remaining size is                   19
+# RAM ADDRESS is                   20
+# DISK ADDRESS is                   20
+# DATA in is          x
+# remaining size is                   18
+# RAM ADDRESS is                   19
+# DISK ADDRESS is                   19
+# DATA in is          x
+# location                   19 in RAM has data          0
+# remaining size is                   17
+# RAM ADDRESS is                   18
+# DISK ADDRESS is                   18
+# DATA in is          x
+# location                   19 in RAM has data          x
+# remaining size is                   16
+# RAM ADDRESS is                   17
+# DISK ADDRESS is                   17
+# DATA in is          x
+# location                   17 in RAM has data          0
+# remaining size is                   15
+# RAM ADDRESS is                   16
+# DISK ADDRESS is                   16
+# DATA in is         20
+# location                   17 in RAM has data         20
+# remaining size is                   14
+# RAM ADDRESS is                   15
+# DISK ADDRESS is                   15
+# DATA in is         20
+# location                   15 in RAM has data          0
+# remaining size is                   13
+# RAM ADDRESS is                   14
+# DISK ADDRESS is                   14
+# DATA in is         18
+# location                   15 in RAM has data         18
+# remaining size is                   12
+# RAM ADDRESS is                   13
+# DISK ADDRESS is                   13
+# DATA in is         18
+# location                   13 in RAM has data          0
+# remaining size is                   11
+# RAM ADDRESS is                   12
+# DISK ADDRESS is                   12
+# DATA in is         16
+# location                   13 in RAM has data         16
+# remaining size is                   10
+# RAM ADDRESS is                   11
+# DISK ADDRESS is                   11
+# DATA in is         16
+# location                   11 in RAM has data          0
+# remaining size is                    9
+# RAM ADDRESS is                   10
+# DISK ADDRESS is                   10
+# DATA in is         14
+# location                   11 in RAM has data         14
+# remaining size is                    8
+# RAM ADDRESS is                    9
+# DISK ADDRESS is                    9
+# DATA in is         14
+# location                    9 in RAM has data          0
+# remaining size is                    7
+# RAM ADDRESS is                    8
+# DISK ADDRESS is                    8
+# DATA in is         12
+# location                    9 in RAM has data         12
+# remaining size is                    6
+# RAM ADDRESS is                    7
+# DISK ADDRESS is                    7
+# DATA in is         12
+# location                    7 in RAM has data          0
+# remaining size is                    5
+# RAM ADDRESS is                    6
+# DISK ADDRESS is                    6
+# DATA in is         10
+# location                    7 in RAM has data         10
+# remaining size is                    4
+# RAM ADDRESS is                    5
+# DISK ADDRESS is                    5
+# DATA in is         10
+# location                    5 in RAM has data          0
+# remaining size is                    3
+# RAM ADDRESS is                    4
+# DISK ADDRESS is                    4
+# DATA in is          8
+# location                    5 in RAM has data          8
+# remaining size is                    2
+# RAM ADDRESS is                    3
+# DISK ADDRESS is                    3
+# DATA in is          8
+# location                    3 in RAM has data          0
+# remaining size is                    1
+# RAM ADDRESS is                    2
+# DISK ADDRESS is                    2
+# DATA in is          6
+# location                    3 in RAM has data          6
+# remaining size is                    0
+# RAM ADDRESS is                    1
+# DISK ADDRESS is                    1
+# DATA in is          6
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          4
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          4
+# location                    0 in RAM has data          0
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          2
+# location                    0 in RAM has data          2
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+run
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# Compile of DMA.v was successful.
+# Compile of RAM.v was successful.
+# Compile of DISK.v was successful.
+# Compile of TB.v was successful.
+# Compile of ClockGen.v was successful.
+# Compile of DMA_2.v was successful.
+# Compile of MIPS.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb2
+# Loading work.ClockGen
+# Loading work.DISK
+# Loading work.CPU
+# Loading work.RAM
+# Loading work.DMA_2
+run
+# [DISK Init]             1,          2,          3,          4,          5,          6,          7,          8,          9,         10,         11,         12,         13,         14,         15,         16,         17,         18,         19,         20, 
+# [Ram Init]             0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0,          0, 
+# 
+# 
+# 
+# 
+# LOADED remaining size is                    x
+# r  is x
+# w is x
+# ram is                    x
+# disk  is                    x
+# 
+# 
+# LOADING FINISHED
+# 
+# 
+# 
+# LOADED remaining size is                   20
+# r  is 1
+# w is 0
+# ram is                    0
+# disk  is                    0
+# 
+# 
+# LOADING FINISHEDlocation                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# location                    x in RAM has data          x
+# remaining size is                   20
+# RAM ADDRESS is                    x
+# DISK ADDRESS is                    x
+# DATA in is          x
+# location                   20 in RAM has data          0
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# location                   20 in RAM has data          x
+# remaining size is                   19
+# RAM ADDRESS is                   20
+# DISK ADDRESS is                   20
+# DATA in is          x
+# location                   19 in RAM has data          0
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# location                   19 in RAM has data         21
+# remaining size is                   18
+# RAM ADDRESS is                   19
+# DISK ADDRESS is                   19
+# DATA in is         21
+# location                   18 in RAM has data          0
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# location                   18 in RAM has data         20
+# remaining size is                   17
+# RAM ADDRESS is                   18
+# DISK ADDRESS is                   18
+# DATA in is         20
+# location                   17 in RAM has data          0
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# location                   17 in RAM has data         19
+# remaining size is                   16
+# RAM ADDRESS is                   17
+# DISK ADDRESS is                   17
+# DATA in is         19
+# location                   16 in RAM has data          0
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# location                   16 in RAM has data         18
+# remaining size is                   15
+# RAM ADDRESS is                   16
+# DISK ADDRESS is                   16
+# DATA in is         18
+# location                   15 in RAM has data          0
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# location                   15 in RAM has data         17
+# remaining size is                   14
+# RAM ADDRESS is                   15
+# DISK ADDRESS is                   15
+# DATA in is         17
+# location                   14 in RAM has data          0
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# location                   14 in RAM has data         16
+# remaining size is                   13
+# RAM ADDRESS is                   14
+# DISK ADDRESS is                   14
+# DATA in is         16
+# location                   13 in RAM has data          0
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# location                   13 in RAM has data         15
+# remaining size is                   12
+# RAM ADDRESS is                   13
+# DISK ADDRESS is                   13
+# DATA in is         15
+# location                   12 in RAM has data          0
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# location                   12 in RAM has data         14
+# remaining size is                   11
+# RAM ADDRESS is                   12
+# DISK ADDRESS is                   12
+# DATA in is         14
+# location                   11 in RAM has data          0
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# location                   11 in RAM has data         13
+# remaining size is                   10
+# RAM ADDRESS is                   11
+# DISK ADDRESS is                   11
+# DATA in is         13
+# location                   10 in RAM has data          0
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# location                   10 in RAM has data         12
+# remaining size is                    9
+# RAM ADDRESS is                   10
+# DISK ADDRESS is                   10
+# DATA in is         12
+# location                    9 in RAM has data          0
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# location                    9 in RAM has data         11
+# remaining size is                    8
+# RAM ADDRESS is                    9
+# DISK ADDRESS is                    9
+# DATA in is         11
+# location                    8 in RAM has data          0
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# location                    8 in RAM has data         10
+# remaining size is                    7
+# RAM ADDRESS is                    8
+# DISK ADDRESS is                    8
+# DATA in is         10
+# location                    7 in RAM has data          0
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# location                    7 in RAM has data          9
+# remaining size is                    6
+# RAM ADDRESS is                    7
+# DISK ADDRESS is                    7
+# DATA in is          9
+# location                    6 in RAM has data          0
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# location                    6 in RAM has data          8
+# remaining size is                    5
+# RAM ADDRESS is                    6
+# DISK ADDRESS is                    6
+# DATA in is          8
+# location                    5 in RAM has data          0
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# location                    5 in RAM has data          7
+# remaining size is                    4
+# RAM ADDRESS is                    5
+# DISK ADDRESS is                    5
+# DATA in is          7
+# location                    4 in RAM has data          0
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# location                    4 in RAM has data          6
+# remaining size is                    3
+# RAM ADDRESS is                    4
+# DISK ADDRESS is                    4
+# DATA in is          6
+# location                    3 in RAM has data          0
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# location                    3 in RAM has data          5
+# remaining size is                    2
+# RAM ADDRESS is                    3
+# DISK ADDRESS is                    3
+# DATA in is          5
+# location                    2 in RAM has data          0
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# location                    2 in RAM has data          4
+# remaining size is                    1
+# RAM ADDRESS is                    2
+# DISK ADDRESS is                    2
+# DATA in is          4
+run
+# location                    1 in RAM has data          0
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# location                    1 in RAM has data          3
+# remaining size is                    0
+# RAM ADDRESS is                    1
+# DISK ADDRESS is                    1
+# DATA in is          3
+# location                    0 in RAM has data          0
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          2
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          2
+# location                    0 in RAM has data          2
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# location                    0 in RAM has data          1
+# remaining size is                    0
+# RAM ADDRESS is                    0
+# DISK ADDRESS is                    0
+# DATA in is          1
